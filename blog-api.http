@@ -1,0 +1,39 @@
+### 🟢 Get all articles
+GET http://localhost:3000/api/articles/
+Accept: application/json
+
+###
+
+### 🔵 Get article by ID
+GET http://localhost:3000/api/articles/1
+Accept: application/json
+
+###
+
+### 🟡 Create a new article
+POST http://localhost:3000/api/articles
+Content-Type: application/json
+
+{
+  "title": "My First Article",
+  "content": "This is a test post about Express and Sequelize.",
+  "tags": "express,nodejs,api"
+}
+
+###
+
+### 🟠 Update article by ID
+PUT http://localhost:3000/api/articles/1
+Content-Type: application/json
+
+{
+  "title": "Updated Article Title",
+  "content": "This content has been updated.",
+  "tags": "express,update,sql"
+}
+
+###
+
+### 🔴 Delete article by ID
+DELETE http://localhost:3000/api/articles/1
+Accept: application/json
