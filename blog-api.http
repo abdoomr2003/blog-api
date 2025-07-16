@@ -5,7 +5,7 @@ Accept: application/json
 ###
 
 ### 🔵 Get article by ID
-GET http://localhost:3000/api/articles/1
+GET http://localhost:3000/api/articles/2
 Accept: application/json
 
 ###
@@ -23,7 +23,7 @@ Content-Type: application/json
 ###
 
 ### 🟠 Update article by ID
-PUT http://localhost:3000/api/articles/1
+PUT http://localhost:3000/api/articles/2
 Content-Type: application/json
 
 {
@@ -35,5 +35,5 @@ Content-Type: application/json
 ###
 
 ### 🔴 Delete article by ID
-DELETE http://localhost:3000/api/articles/1
+DELETE http://localhost:3000/api/articles/2
 Accept: application/json

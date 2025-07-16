@@ -1,6 +1,5 @@
 const {DataTypes} = require('sequelize');
 
-const {sequelize} = require('../config/db');
 const sqluelize = require('../config/db');
 
 const Article = sqluelize.define('Article', {
